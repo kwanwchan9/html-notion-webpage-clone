@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Notion – One workspace. Every team.</title>
+
+    <!-- Original Website -->
+    <!-- https://www.notion.so/product?utm_source=google&utm_campaign=2075789713&utm_medium=80211061801&utm_content=555234102424&utm_term=notion&targetid=aud-1188813422817:kwd-312974742&gclid=Cj0KCQjw166aBhDEARIsAMEyZh4Ume89SJ3s89ENK7arN8LNI0bsqOvLoWBmCzeSNFJaTCeEfXZrlnYaAtZjEALw_wcB -->
+
+    <!-- Favicons -->
+    <link rel="icon" href="./image/favicon.ico" />
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Font Font-awesome CSS File -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
+    <!-- JavaScript File -->
+    <script src="./script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar-container">
+      <div class="navbar">
+        <div class="nav-menu">
+          <div class="nav-left">
+            <div class="home-icon">
+              <a href="#">
+                <img src="./image/Notion app icon.png" alt="app icon" /><span>
+                  Notion
+                </span>
+              </a>
+            </div>
+            <div class="nav-items">
+              <ul>
+                <li class="dropdown">
+                  <a href="#" class="nav-item"
+                    >Product
+                    <span>
+                      <i class="fa-solid fa-angle-down arrow-down"></i>
+                      <i class="fa-solid fa-angle-up arrow-up"></i></span
+                  ></a>
+                  <div id="Product" class="dropdown-content-container">
+                    <div class="dropdown-content">
+                      <a
+                        ><h4>Home</h4>
+                        <p>Docs, projects & wikis</p></a
+                      >
+                      <a
+                        ><h4>Template gallery</h4>
+                        <p>Setups to get your started</p></a
+                      >
+                      <a
+                        ><h4>Customer stories</h4>
+                        <p>See how teams use Notion</p></a
+                      >
+                      <a
+                        ><h4>Connections</h4>
+                        <p>Connect your tools to Notion</p></a
+                      >
+                      <button class="white-btn">
+                        <i class="fa-solid fa-cloud-arrow-down"></i> Download
+                        Notion
+                      </button>
+                      <p class="download-p-description">
+                        Mac, Windows, IOS, & Android
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="nav-item"
+                    >Download
+                    <span>
+                      <i class="fa-solid fa-angle-down arrow-down"></i>
+                      <i class="fa-solid fa-angle-up arrow-up"></i></span
+                  ></a>
+                  <div id="Download" class="dropdown-content-container">
+                    <div class="dropdown-content">
+                      <a><h4>iOS & Android</h4></a>
+
+                      <a><h4>Mac & Windows</h4></a>
+
+                      <a><h4>Web Clipper</h4></a>
+                    </div>
+                  </div>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="nav-item"
+                    >Solutions
+                    <span>
+                      <i class="fa-solid fa-angle-down arrow-down"></i>
+                      <i class="fa-solid fa-angle-up arrow-up"></i></span
+                  ></a>
+                  <div id="Solutions" class="dropdown-content-container">
+                    <div class="dropdown-flex-row">
+                      <div class="solutions left">
+                        <div class="dropdown-content">
+                          <p class="dropdown-p-heading">BY TEAM SIZE</p>
+                          <div class="image-button-container">
+                            <a class="image-button">
+                              <div class="button-image">
+                                <img
+                                  src="./image/Enterprise.png"
+                                  alt="Enterprise"
+                                />
+                              </div>
+                              <div class="image-button right">
+                                <h4>Small business</h4>
+                                <p>Run your team on the tool</p>
+                              </div>
+                            </a>
+                            <a class="image-button">
+                              <div class="button-image">
+                                <img
+                                  src="./image/Small business.png"
+                                  alt="Small business"
+                                />
+                              </div>
+                              <div class="image-button right">
+                                <h4>Personal</h4>
+                                <p>Free for individuals</p>
+                              </div>
+                            </a>
+                            <a class="image-button">
+                              <div class="button-image">
+                                <img
+                                  src="./image/Personal.png"
+                                  alt="Personal"
+                                />
+                              </div>
+                              <div class="image-button right">
+                                <h4>Enterprise</h4>
+                                <p>Advanced features for your org</p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="solutions middle">
+                        <div class="dropdown-content">
+                          <p class="dropdown-p-heading">BY TEAM FUNCTION</p>
+                          <a><h4>Design</h4></a>
+                          <a><h4>Engineering</h4></a>
+                          <a><h4>Product</h4></a>
+                          <a><h4>Managers</h4></a>
+                        </div>
+                      </div>
+                      <div class="solutions right">
+                        <div class="dropdown-content">
+                          <p class="dropdown-p-heading">NOTION FOR</p>
+                          <a><h4>Startups</h4></a>
+                          <a><h4>Remote work</h4></a>
+                          <a><h4>Education</h4></a>
+                          <a><h4>Nonprofits</h4></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="nav-item"
+                    >Resources
+                    <span>
+                      <i class="fa-solid fa-angle-down arrow-down"></i>
+                      <i class="fa-solid fa-angle-up arrow-up"></i></span
+                  ></a>
+                  <div id="resources" class="dropdown-content-container">
+                    <div class="dropdown-content">
+                      <a><h4>Blogs</h4></a>
+                      <a><h4>Guides & tutorials</h4></a>
+                      <a><h4>Webinars</h4></a>
+                      <a><h4>Help center</h4></a>
+                      <a><h4>API codes</h4></a>
+                      <a><h4>Community</h4></a>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="#" class="nav-item">Templates</a></li>
+                <li><a href="#" class="nav-item">Enterprise</a></li>
+                <li><a href="#" class="nav-item">Pricing</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="nav-right">
+            <a href="#" class="nav-item">Contact sales</a>
+            <div class="vert-divider"></div>
+            <a href="#" class="nav-item">Log In</a>
+            <button class="red-btn">Try Notion free</button>
+          </div>
+        </div>
+        <div class="divider"></div>
+      </div>
+    </nav>
+
+    <!-- Intro Section -->
+    <section class="section-container">
+      <div class="intro">
+        <div class="left">
+          <h1>
+            One workspace. <br />
+            Every team.
+          </h1>
+          <p>
+            We’re more than a doc. Or a table. Customize <br />Notion to work
+            the way you do.
+          </p>
+          <button class="red-btn">Try Notion free</button>
+          <div class="trusted-company">
+            <p>Trusted by 1,000,000+ teams including</p>
+            <div class="trusted-company-image-container">
+              <img src="./image/Figma.png" alt="Figma" />
+              <img src="./image/mixpanel.png" alt="Mixpanel" />
+              <img src="./image/pixar.png" alt="Pixar" />
+              <img src="./image/MatchGroup.png" alt="MatchGroup" />
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <img
+            class="responsive"
+            src="./image/A group of people collaborating on documents.png"
+            alt="A group of people collaborating"
+          />
+        </div>
+      </div>
+      <div class="function">
+        <article class="container">
+          <div class="examples">
+            <div class="function-description">
+              <img
+                class="icon"
+                src="./image/A few boxes arranged like the game Tetris.png"
+                alt="boxed"
+              />
+              <h2>Team up without the chaos</h2>
+              <p>
+                Connect your teams, projects, and docs in Notion — so you can
+                bust silos and move as one.
+              </p>
+            </div>
+            <div class="function-image">
+              <img
+                class="screenshot responsive"
+                src="./image/meeting-notes.png"
+                alt="Acme home"
+              />
+              <!-- to be confirmed -->
+            </div>
+          </div>
+        </article>
+        <article class="container">
+          <div class="examples">
+            <div class="function-description">
+              <img
+                class="icon"
+                src="./image/A box opening up to reveal information.png"
+                alt="A box open"
+              />
+              <h2>Never ask “What’s the context?” again</h2>
+              <p>
+                Stale wikis aren't helpful. Neither are floating docs. In
+                Notion, your daily work and knowledge live side by side — so you
+                never lose context.
+              </p>
+            </div>
+            <div class="function-image">
+              <img
+                class="screenshot responsive"
+                src="./image/meeting-notes.png"
+                alt="Meeting notes"
+              />
+            </div>
+          </div>
+        </article>
+        <article class="container">
+          <div class="examples">
+            <div class="function-description">
+              <img
+                class="icon"
+                src="./image/A series of boxes connected by string.png"
+                alt="series of box"
+              />
+              <h2>Build the workflow you want</h2>
+              <p>
+                Customize Notion to make it work the way you want it to. Just
+                drag and drop to craft the dashboard, website, doc, or system
+                you need.
+              </p>
+            </div>
+            <div class="function-image">
+              <img
+                class="screenshot responsive"
+                src="./image/Roadmap.png"
+                alt="Roadmap"
+              />
+            </div>
+          </div>
+        </article>
+        <article class="container">
+          <div class="examples">
+            <div class="function-description">
+              <img
+                class="icon"
+                src="./image/An open box.png"
+                alt="An open box"
+              />
+              <h2>Benefit from a global ecosystem of creators</h2>
+              <p>
+                Get inspiration from thousands of community-made templates,
+                integrations, and events.You'll never want for resources or
+                support.
+              </p>
+            </div>
+            <div class="function-image">
+              <img
+                class="screenshot responsive"
+                src="./image/Ecosystem.png"
+                alt="Ecosystem"
+              />
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="divider"></div>
+    </section>
+
+    <!-- Feature Section -->
+    <section class="section-container">
+      <div class="feature-section">
+        <div class="feature-top">
+          <div class="description">
+            <div class="left">
+              <h1>
+                Built for endless uses. <br />
+                Across all teams.
+              </h1>
+              <p>
+                Notion solves problems common and unique to <br />every team.
+                These are just a few.
+              </p>
+              <button class="red-btn">Try Notion free</button>
+            </div>
+            <div class="right">
+              <img
+                class="responsive"
+                src="./image/Books on a shelf.png"
+                alt="Books on a shelf"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="feature-bottom">
+          <div class="left">
+            <div class="tab-items">
+              <ul>
+                <li>
+                  <a class="tab-btn Figma active" onclick="changeTab('Figma')"
+                    >Company home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="tab-btn MatchGroup"
+                    onclick="changeTab('MatchGroup')"
+                    >Roadmap</a
+                  >
+                </li>
+                <li>
+                  <a class="tab-btn Headspace" onclick="changeTab('Headspace')"
+                    >Design docs</a
+                  >
+                </li>
+                <li>
+                  <a class="tab-btn Branch" onclick="changeTab('Branch')"
+                    >Engineering wiki</a
+                  >
+                </li>
+                <li>
+                  <a class="tab-btn Mixpanel" onclick="changeTab('Mixpanel')"
+                    >Meeting notes</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="tab-btn Multiverse"
+                    onclick="changeTab('Multiverse')"
+                    >Website publishing</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <p>Used by teams at</p>
+              <div class="tabComp-container">
+                <img
+                  class="tab-company Figma active"
+                  src="./image/figma-logo.png"
+                  alt="Figma"
+                />
+                <img
+                  class="tab-company MatchGroup"
+                  src="./image/MatchGroup.png"
+                  alt="MatchGroup"
+                />
+                <img
+                  class="tab-company Headspace"
+                  src="./image/headspace.png"
+                  alt="Headspace"
+                />
+                <img
+                  class="tab-company Branch"
+                  src="./image/branch.png"
+                  alt="Branch"
+                />
+                <img
+                  class="tab-company Mixpanel"
+                  src="./image/mixpanel.png"
+                  alt="Mixpanel"
+                />
+                <img
+                  class="tab-company Multiverse"
+                  src="./image/multiverse.png"
+                  alt="Multiverse"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <img
+              class="tab-image responsive Figma active"
+              src="./image/The figma.png"
+              alt="The figma"
+            />
+            <img
+              class="tab-image responsive MatchGroup"
+              src="./image/Roadmap.png"
+              alt="Roadmap"
+            />
+            <img
+              class="tab-image responsive Headspace"
+              src="./image/Design system.png"
+              alt="Design system"
+            />
+            <img
+              class="tab-image responsive Branch"
+              src="./image/meeting-notes.png"
+              alt="Meeting Notes"
+            />
+            <img
+              class="tab-image responsive Mixpanel"
+              src="./image/meeting-notes.png"
+              alt="Meeting Notes"
+            />
+            <img
+              class="tab-image responsive Multiverse"
+              src="./image/meeting-notes.png"
+              alt="Meeting Notes"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="divider"></div>
+    </section>
+
+    <!-- Template Section -->
+    <section class="section-container">
+      <div class="template-section">
+        <div class="template-top">
+          <div class="left">
+            <h1>
+              Start with a template. <br />
+              Modify it however you need.
+            </h1>
+            <p>
+              Choose from thousands of free, pre-built setups — for work and
+              life.
+            </p>
+            <button class="white-btn">See all templates</button>
+          </div>
+          <div class="right">
+            <img
+              class="responsive"
+              src="./image/Some building blocks.png"
+              alt="some building blocks"
+            />
+          </div>
+        </div>
+        <div class="template-bottom">
+          <div class="templates">
+            <div class="template-1">
+              <div class="template-image-container">
+                <img
+                  src="./image/Company Home.jpg"
+                  class="template-img"
+                  id="template-img-1"
+                />
+              </div>
+              <h5 class="template-caption" id="template-caption-1">
+                Company home
+              </h5>
+            </div>
+            <div class="template-2">
+              <div class="template-image-container">
+                <img
+                  src="./image/Roadmap.png"
+                  class="template-img"
+                  id="template-img-2"
+                />
+              </div>
+              <h5 class="template-caption" id="template-caption-2">Roadmap</h5>
+            </div>
+            <div class="template-3">
+              <div class="template-image-container">
+                <img
+                  src="./image/meeting-notes.png"
+                  class="template-img"
+                  id="template-img-3"
+                />
+              </div>
+              <h5 class="template-caption" id="template-caption-3">
+                <!-- Meeting notes -->
+              </h5>
+            </div>
+          </div>
+          <div class="template-btn">
+            <button class="white-btn prev-btn">
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <button class="white-btn next-btn">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="divider"></div>
+    </section>
+
+    <!-- Customers Review Section -->
+    <div class="section-container">
+      <div class="comments">
+        <div class="comments-top">
+          <div class="left">
+            <h1>Used by the world’s most <br />innovative teams</h1>
+            <button class="white-btn read-stories">
+              Read all customer stories
+            </button>
+          </div>
+          <div class="right">
+            <img
+              src="./image/A team of people collaborating.png"
+              alt="A team of people collaborating"
+            />
+          </div>
+        </div>
+        <div class="comments-bottom">
+          <div class="left">
+            <img
+              class="company-logo match-group"
+              src="./image/MatchGroup.png"
+              alt="MatchGroup"
+            />
+            <p>
+              "Notion is a workspace that adapts to your needs. It’s as minimal
+              or as powerful as you need it to be."
+            </p>
+            <div class="info-card">
+              <img src="./image/Rahim Makani.png" alt="Rahim Makani" />
+              <div class="card-info">
+                <h4>Rahim Makani</h4>
+                <p>Director of Product</p>
+              </div>
+            </div>
+          </div>
+          <div class="middle">
+            <img class="company-logo" src="./image/Loom.png" alt="loom" />
+            <p>
+              "Notion continues to be the easiest way to get information
+              centralized somewhere and shout it out to someone else. For us,
+              that’s extremely important because half our team is remote."
+            </p>
+            <div class="info-card">
+              <img src="./image/Vinay Hiremath.png" alt="Vinay Hiremath" />
+              <div class="card-info">
+                <h4>Vinay Hiremath</h4>
+                <p>Co-founder and Head of Engineering</p>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <img
+              class="company-logo"
+              src="./image/figma-logo.png"
+              alt="figma"
+            />
+            <p>
+              "Notion’s ease of use is one of its hallmarks. It helps you
+              visually navigate content and remember where something is."
+            </p>
+            <div class="info-card">
+              <img src="./image/Marie Szuts.png" alt="Marie Szuts" />
+              <div class="card-info">
+                <h4>Marie Szuts</h4>
+                <p>Head of People Ops</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="divider"></div>
+    </div>
+
+    <!-- Try Section -->
+    <section class="section-container">
+      <div class="try-notion">
+        <div class="center">
+          <img src="./image/Notion app icon.png" alt="notion icon" />
+          <h1>Try Notion Today</h1>
+          <p>
+            Get started for free. <br />
+            Add your whole team as your needs grow.
+          </p>
+          <button class="red-btn">Try Notion free</button>
+          <p>
+            On a big team?
+            <a href="https://www.notion.so/contact-sales">Contact sales</a>
+          </p>
+        </div>
+        <div class="bottom-left">
+          <img
+            src="./image/Character sitting on the floor.png"
+            alt="Character sitting on the floor"
+          />
+        </div>
+        <div class="divider"></div>
+      </div>
+    </section>
+
+    <!-- Links -->
+    <section class="section-container">
+      <div class="links">
+        <div class="column-0">
+          <div class="home-icon">
+            <div class="image-container">
+              <img src="./image/Notion app icon.png" alt="app icon" />
+            </div>
+            <span> Notion </span>
+          </div>
+        </div>
+        <div class="column-1">
+          <ul>
+            <li class="heading">Product</li>
+            <li><a href="#">Overview</a></li>
+            <li><a>Pricing</a></li>
+            <li><a>Customer stories</a></li>
+            <li><a>Connections</a></li>
+            <li><a>Desktop apps</a></li>
+            <li><a>Mobile apps</a></li>
+            <li><a>Web clipper</a></li>
+            <li><a>Security</a></li>
+            <li><a>Terms & privacy</a></li>
+          </ul>
+        </div>
+        <div class="column-2">
+          <ul>
+            <li class="heading">Notion for</li>
+            <li><a>Enterprise</a></li>
+            <li><a>Small business</a></li>
+            <li><a>Personal use</a></li>
+            <li><a>Remote work</a></li>
+            <li><a>Startups</a></li>
+            <li><a>Education</a></li>
+            <li><a>Nonprofits</a></li>
+            <li><a>Engineering</a></li>
+            <li><a>Product</a></li>
+            <li><a>Design</a></li>
+            <li><a>Managers</a></li>
+          </ul>
+        </div>
+        <div class="column-3">
+          <ul>
+            <li class="heading">Resources</li>
+            <li><a>Blogs</a></li>
+            <li><a>Guides & tutorials</a></li>
+            <li><a>Help center</a></li>
+            <li><a>Webinars</a></li>
+            <li><a>Template gallery</a></li>
+            <li><a>Community</a></li>
+            <li><a>What's new</a></li>
+            <li><a>Become an affiliate</a></li>
+            <li><a>Find a consultant</a></li>
+            <li><a>API codes</a></li>
+            <li><a>Switch from Evernote</a></li>
+            <li><a>Switch from Confluence</a></li>
+          </ul>
+        </div>
+        <div class="column-4">
+          <ul>
+            <li class="heading">Templates</li>
+            <li><a>Company home</a></li>
+            <li><a>Meeting notes</a></li>
+            <li><a>To-dos</a></li>
+            <li><a>Weekly agenda</a></li>
+            <li><a>Docs</a></li>
+            <li><a>Roadmap</a></li>
+            <li><a>Design system</a></li>
+            <li><a>New hire onboarding</a></li>
+            <li><a>Product wiki</a></li>
+            <li><a>Content calendar</a></li>
+          </ul>
+        </div>
+        <div class="column-5">
+          <ul>
+            <li class="heading">Company</li>
+            <li><a>About us</a></li>
+            <li><a>Careers</a></li>
+            <li><a>Media kit</a></li>
+            <li><a>Contact sales</a></li>
+            <li><a>Contacts support</a></li>
+            <li><a>Email us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="divider"></div>
+    </section>
+
+    <!-- Footer -->
+    <section class="section-container">
+      <div class="footer">
+        <div class="left">
+          <div class="language-button">
+            <a class="language-select">
+              <img
+                class="language-icon"
+                src="./image/earth-globe.png"
+                alt="language"
+              />English</a
+            >
+            <div class="dropdown-content-container language">
+              <div class="dropdown-content">
+                <a
+                  ><h6>English</h6>
+                  <p>English</p></a
+                >
+                <a
+                  ><h6>한국어</h6>
+                  <p>Korean</p></a
+                >
+                <a
+                  ><h6>日本語</h6>
+                  <p>Japanese</p></a
+                >
+                <a
+                  ><h6>Français (France)</h6>
+                  <p>French</p></a
+                >
+              </div>
+            </div>
+          </div>
+          <a href="#">Cookie settings</a>
+          <a href="#">Status</a>
+          <p class="notion-lab">©2022 Notion Labs, Inc.</p>
+        </div>
+        <div class="right">
+          <a href="https://twitter.com/NotionHQ"
+            ><img src="./image/twitter.png" alt="twitter"
+          /></a>
+          <a href="https://www.linkedin.com/company/notionhq/"
+            ><img src="./image/linkedin.png" alt="linkedin"
+          /></a>
+          <a href="https://www.facebook.com/NotionHQ/"
+            ><img src="./image/facebook.png" alt="facebook" /></a
+          ><a href="https://www.instagram.com/notionhq/"
+            ><img src="./image/instagram.png" alt="instagram" /></a
+          ><a href="https://www.youtube.com/channel/UCoSvlWS5XcwaSzIcbuJ-Ysg"
+            ><img src="./image/youtube.png" alt="youtube"
+          /></a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
