@@ -9,8 +9,3 @@ Notion product webpage clone using Html, Css and JavaScript.
 # Screenshot
 
 ![Demo_Img_1](/image/screenshot1.png)
-
-### Todo
-
-- [ ] Media Query for Responsive Design in different break points
-- [ ] CSS for safari display
